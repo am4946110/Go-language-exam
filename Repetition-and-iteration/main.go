@@ -28,13 +28,10 @@ func main(){
 	//fmt.Println(result)
 
 	//Iterative Calculaion
-
 	result := iterativeCalculaion(13)
-
 	fmt.Printf("the result of the iterative function is : %v\n",result)
 
 	//Recursive Calculaion
-
 	result1 := recursiveCalculaion(13)
 	fmt.Printf("the result of the recursive function is : %v",result1)
 }
